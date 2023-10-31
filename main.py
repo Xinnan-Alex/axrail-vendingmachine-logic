@@ -73,6 +73,8 @@ def vending_machine():
     for key, value in return_bills.items():
         print(f"RM {key} - {value}")
 
+    print(f"Total notes returned: {len(return_bills)}")
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
